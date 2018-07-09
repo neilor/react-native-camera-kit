@@ -39,7 +39,7 @@ import static com.wix.RNCameraKit.camera.Orientation.getSupportedRotation;
 public class CameraViewManager extends SimpleViewManager<CameraView> {
 
     private static Camera camera = null;
-    private static int currentCamera = 0;
+    private static int currentCamera = 1;
     private static String flashMode = Camera.Parameters.FLASH_MODE_AUTO;
     private static Stack<CameraView> cameraViews = new Stack<>();
     private static ThemedReactContext reactContext;
